@@ -1,0 +1,16 @@
+{
+  "name": "Erika Guittard - Musicothérapeute, MTA",
+  "short_name": "Erika Guittard",
+  "description": "Erika Guittard - Musicothérapeute, MTA, Montréal, QC, Canada - musicotherika@gmail.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#777",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
