@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0NNP2VRK1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y0NNP2VRK1');
+</script>
+<title>Erika Guittard - Musicothérapeute</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Erika Guittard - Musicothérapeute, MTA, Montréal, QC, Canada - musicotherika@gmail.com">
+<meta property="og:title" content="Erika Guittard - Musicothérapeute, MTA">
+<meta property="og:description" content="Erika Guittard - Musicothérapeut, MTA">
+<meta property="og:image" content="photos/DSC_0876-mobile.jpg">
+<meta property="og:url" content="URL_of_your_page">
+<meta property="og:type" content="website">
+<link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+<style>
+*, :after, :before {
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  Width:100%;
+  color: #777;
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
+  overflow-x: clip;
+
+}
+
+.columnA {
+  float: left;
+  width: 20%;
+}
+
+/* _______________________SLIDESHOW _________________ Hide the images by default */
+/* Hide the images by default */
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.w3-container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 38%; /* Adjusted to 50% for center alignment vertically */
+  -webkit-transform: translateY(-50%); /* Center the button vertically */
+  width: auto;
+  padding: 10% 25px; /* Adjust padding as needed */
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 2; /* Ensure the buttons are above the scrolling container */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 16px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 1em;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: transparent;
+  padding: 2px 16px;
+  color: transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumbnail images */
+.demo {
+  opacity: 0.5;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Add a new class for the scrolling container */
+.scrolling-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%; /* Adjust the width as needed */
+  margin: 20px 0; /* Add margin for spacing */
+  position: relative; /* Add this */
+  z-index: 1; /* Add this to ensure the scrolling container is above the buttons */
+}
+
+/* Add a new class for the scrolling content */
+.scrolling-content {
+  display: inline-block;
+}
+
+/* Adjust the styles for the thumbnail images inside the scrolling container */
+.scrolling-container .demo.cursor {
+  opacity: 0.5;
+  margin-right: 10px; /* Adjust spacing between images as needed */
+}
+
+/* Adjust the styles for active and hovered images inside the scrolling container */
+.scrolling-container .active,
+.scrolling-container .demo.cursor:hover {
+  opacity: 1;
+}
+
+/* Add styles for the scrolling demo cursor container */
+.demo-cursor-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+  margin: 20px 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Adjust the styles for the thumbnail images inside the scrolling container */
+.demo-cursor-container .demo.cursor {
+  opacity: 0.5;
+  margin-right: 10px; /* Adjust spacing between images as needed */
+  transition: opacity 0.3s; /* Add a transition effect for smooth hover */
+}
+
+/* Change the opacity to 1 when the images are hovered */
+.demo-cursor-container .demo.cursor:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+.custom-hover-opacity
+{
+  opacity:1; !important
+}
+
+.custom-hover-opacity:hover
+{
+  opacity:0.5; !important
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+
+
+
+
+
+
+
+.fa-beat-hover:hover {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out); 
+}
+
+.fa-bounce-hover:hover {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1)); 
+}
+
+.fa-fade-hover:hover {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+}
+
+.fa-beat-fade-hover:hover {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+}
+
+.fa-flip-hover:hover {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out); 
+}
+
+
+.fa-flip-logo {
+  -webkit-animation-name: fa-flip;
+  animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+  animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+  animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s); /* Default animation duration */
+  animation-duration: var(--fa-animation-duration, 1s); /* Default animation duration */
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+  animation-timing-function: var(--fa-animation-timing, linear);
+
+  /* Define a custom animation with infinite repeat and pause between repetitions */
+  -webkit-animation: infiniteAlternate 4s infinite; /* Total duration is 3 seconds */
+  animation: infiniteAlternate 4s infinite; /* Total duration is 3 seconds */
+}
+
+@keyframes infiniteAlternate {
+  0%, 100% {
+    /* Your starting and ending styles here */
+    opacity: 1;
+   -webkit-transform: rotateY(0deg); /* No rotation at the beginning and end */
+  }
+
+  0%, 100% {
+    /* Your starting and ending styles here */
+    opacity: 1;
+    -webkit-transform: rotateY(0deg); /* No rotation at the beginning and end */
+  }
+
+  25%, 50% {
+    /* 25% to 75% is the pause duration (2 second in a 5-second animation) */
+    opacity: 0.8;
+    -webkit-transform: rotateY(0deg); /* No rotation during the pause */
+  }
+  75% {
+    /* Your intermediate styles here */
+    opacity: 0.5;
+    -webkit-transform: rotateY(180deg); /* Rotate 180 degrees on the Y-axis */
+  }
+}
+
+
+
+.fa-shake-hover:hover {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear); 
+}
+
+.fa-spin-hover:hover {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear); 
+}
+.fa-spin-pulse-hover:hover {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8)); 
+}
+
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1)); 
+}
+
+
+.square {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square {
+    -webkit-transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.square-transition {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+}
+
+
+
+
+
+.intro-text{
+    text-align: center;
+    width: 0ch;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.intro-text.active{
+    -webkit-animation: typeIn 2s steps(36) forwards;
+}
+@keyframes typeIn {
+    to { width: 36ch; }
+}
+
+.animate{
+  position: relative;
+  margin: 0 auto;
+  -webkit-transition: transform 0.5s, opacity 0.5s;
+}
+.animate.left{
+    -webkit-transform: translateX(-10em);
+    opacity: 0;
+}
+
+.animate.left2{
+    -webkit-transform: translateX(-5em);
+    opacity: 0;
+    -webkit-transition: transform 1s;
+}
+
+.animate.right2{
+    -webkit-transform: translateX(5em);
+    opacity: 0;
+    -webkit-transition: transform 1s;
+}
+
+.animate.right{
+    -webkit-transform: translateX(10em);
+    opacity: 0;
+}
+    .animate.toptop {
+        -webkit-transform: translateY(-10em) scaleX(1);
+        opacity: 0;
+        -webkit-transition: transform 1s;
+    }
+.animate.top{
+    -webkit-transform: translateY(-10em) scaleX(3);
+    opacity: 0;
+}
+.animate.top360{
+    -webkit-transform: translateY(-10em) rotate(360deg);
+    opacity: 0;
+}
+.animate.bottom{
+    -webkit-transform: translateY(10em) scaleX(3);
+    opacity: 0;
+}
+.animate.fadefast{
+    -webkit-transform: translateY(-0em) scaleX(1);
+    opacity: 0;
+    -webkit-transition: transform 2s, opacity 2s;
+}
+.animate.fadeslow{
+    -webkit-transform: translateY(-0em) scaleX(1);
+    opacity: 0;
+    -webkit-transition: transform 5s, ease-out 1s, opacity 2s;
+}
+
+.animate.skewleft{
+    -webkit-transform: translate(-10em, 0px) scale(0.1, 1) skew(-60deg, 0deg);
+    opacity: 0;
+   -webkit-transition: transform 0.5s;
+}
+
+/* For small screens (e.g., screens with a maximum width of 320px), override the animation styles */
+@media (max-width: 380px) {
+    .animate.skewleft {
+        -webkit-transform: none; /* Reset the transform properties */
+        opacity: 1; /* Make it fully visible */
+        -webkit-transition: none; /* Remove any transition */
+    }
+}
+
+.animate.active{
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}
+
+.loader{
+    text-align: center;
+}
+
+
+
+
+
+/* Disable animations for older Safari versions */
+.disable-animations .intro-text,
+.disable-animations .animate {
+  -webkit-transform: none; /* Reset the transform properties */
+  opacity: 1; /* Make it fully visible */
+  -webkit-transition: none; /* Remove any transition */
+  /* Add any additional styles to disable animations */
+}
+
+
+
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Apply a column layout for screens between 750px and 600px */
+@media screen and (max-width: 750px) and (min-width: 601px) {
+    .icon-container {
+        -webkit-flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-container a {
+        margin: 0.8em 0; /* Vertical margin between elements */
+    }
+}
+
+/* Apply a column layout for screens less than 400px */
+@media screen and (max-width: 400px) {
+    .icon-container {
+        -webkit-flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-container a {
+        margin: 0.8em 0; /* Vertical margin between elements */
+    }
+}
+
+
+
+/* SECTION INTERVENTIONS ICONES - Define a custom class for controlling the margin-top */
+.custom-margin-top {
+  margin-top: 64px;
+}
+/* Add a media query to remove margin for screens 600px or less */
+@media screen and (max-width: 600px) {
+.custom-margin-top {
+  margin-top: 0;
+}
+}
+
+
+
+
+
+/* CUSTOM HIDE FOR EXTRA SMALL DEVICES */
+@media (max-width: 335px) {
+  .w3-hide-xsmall {
+    display: none !important;
+  }
+}
+/* CUSTOM HIDE FOR EXTRA SMALL DEVICES */
+@media (max-width: 335px) {
+  .w3-show-xsmall {
+  display: block !important;  }
+}
+
+
+      @media (max-width: 768px) {
+        .custom-container {
+          padding: 0; /* Remove padding for small screens */
+        }
+      }
+      
+      /* Override styles for custom-container on larger screens */
+      @media (min-width: 769px) {
+        .custom-container {
+          padding: 60px 10%;
+      max-width: 1400px; /* Adjust the maximum width as needed */
+      margin-left: auto;
+      margin-right: auto; /* Center the container horizontally */
+        }
+      }
+
+
+/* 3 LOGOS For screens with a maximum width of 440 */
+@media screen and (max-width: 440px) {
+    .w3-cell-logo img {
+        width: 130px; /* Set a smaller width for smaller screens */
+        height: auto;
+    }
+}
+/* 3 LOGOS For screens with a maximum width of 380 */
+@media screen and (max-width: 380px) {
+    .w3-cell-logo img {
+        width: 115px; /* Set a smaller width for smaller screens */
+        height: auto;
+    }
+}
+/* 3 LOGOS For screens with a maximum width of 330 */
+@media screen and (max-width: 330px) {
+    .w3-cell-logo img {
+        width: 100px; /* Set a smaller width for smaller screens */
+        height: auto;
+    }
+}
+
+/* CONTACT-INFO TEXT Left-align when screen width is greater than 310px */
+@media screen and (min-width: 311px) {
+    .contact-info {
+        text-align: left;
+    }
+}
+/* CONTACT-INFO TEXT Center-align when screen width is 310px or smaller */
+@media screen and (max-width: 310px) {
+    .contact-info {
+        text-align: center;
+    }
+}
+
+
+
+/* Define a new class for custom font size */
+.fa-custom {
+    font-size: 2rem; /* Default size (fa-l) for screens smaller than 400px */
+}
+
+/* For screens 400px or wider */
+@media screen and (min-width: 400px) {
+    .fa-custom {
+        font-size: 2.5rem; /* fa-xl size */
+    }
+}
+
+
+
+
+/* TIMELINE */
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+:root {
+  --progress: 0%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  background-color: #D3D3D3;
+  width: 100%;
+  height: 1px;
+  position: relative;
+  align-items: center;
+}
+.line .step-parent {
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  position: absolute;
+  width: fit-content;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-transform: translateX(-50%);
+}
+
+/* INITIAL ---------------- */
+.line .step-parent .step-title {
+  width: max-content;
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  text-transform: uppercase;
+  padding: 10px;
+  user-select: none;
+  border-radius: 20px;
+  background-color: #D3D3D3;
+  Text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.95, 1);
+  }
+}
+@media screen and (max-width: 530px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.9, 1);
+  }
+}
+@media screen and (max-width: 510px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.85, 1);
+  }
+}
+@media screen and (max-width: 484px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.8, 1);
+  }
+}
+@media screen and (max-width: 460px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.75, 1);
+  }
+}
+@media screen and (max-width: 430px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.7, 1);
+  }
+}
+@media screen and (max-width: 405px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.65, 1);
+  }
+}
+@media screen and (max-width: 380px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.6, 1);
+  }
+}
+@media screen and (max-width: 350px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.55, 1);
+  }
+}
+@media screen and (max-width: 330px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.5, 1);
+  }
+}
+@media screen and (max-width: 305px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.45, 1);
+  }
+}
+@media screen and (max-width: 280px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.4, 1);
+  }
+}
+@media screen and (max-width: 260px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.37, 1);
+  }
+}
+@media screen and (max-width: 230px) {
+  .line .step-parent .step-title {
+    -webkit-transform: scale(0.35, 1);
+  }
+}
+
+
+.line .step-parent .step-title.passed {
+  color: black;
+  position: relative;
+}
+
+/* AFTER ---------------- */
+.line .step-parent .step-title.passed::after {
+  animation: height-expand 0.2s linear forwards;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #A9A9A9;
+  z-index: -1;
+  border-radius: 15px;
+  content: "";
+}
+
+.active-line {
+  background-color: black;
+  width: var(--progress);
+  height: 1px;
+  position: relative;
+}
+
+.step {
+  background-color: #D3D3D3;
+  width: 10px;
+  cursor: pointer;
+  height: 10px;
+  -webkit-transform: translateY(-50%);
+  border-radius: 50%;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+.step.active {
+  background-color: black;
+}
+.step.active.current {
+  -webkit-transform: scale(2) translateY(-25%);
+}
+.step.active span {
+  background-color: white;
+}
+.step span {
+  background-color: #646464;
+  -webkit-transform: translate(-10%, -150%);
+  position: absolute;
+  padding: 3px;
+  border-radius: 5px;
+}
+@keyframes height-expand {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+ 
+
+
+
+
+
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('photos/DSC_0626.jpg');
+  min-height: 100%;
+}
+
+/* Second image (musictherapy) */
+.bgimg-2 {
+  background-image: url('photos/DSC_0572.jpg');
+  height: 25%;
+
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url('photos/DSC_0499.jpg');
+  height: 25%;
+
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-condensed {letter-spacing: 2px;}
+.w3-xcondensed {letter-spacing: 0px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 320px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 320px) {
+  .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 25%;
+  }
+}
+
+/* Font size for screens 345px or less */
+@media screen and (max-width: 345px) {
+    .logo-text {
+        font-size: 2em; /* Change font size to 5em for smaller screens */
+    }
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#accueil" class="w3-bar-item w3-button w3-hide-xsmall">ACCUEIL</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa-regular fa-face-smile"></i>&nbsp;QUI SUIS-JE?</a>
+            <a href="#musictherapy" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-music"></i>&nbsp;MUSICOTHÉRAPIE</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope w3-hide-xsmall"></i>&nbsp;CONTACT</a>
+            <a href="indexEN.html" class="w3-bar-item w3-button w3-right w3-hover-red">
+                <span class="w3-hide-xsmall w3-hide-medium">EN</span>
+                <i class="fa fa-language"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-left w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-regular fa-face-smile"></i>&nbsp;QUI SUIS-JE?</a>
+            <a href="#musictherapy" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa-solid fa-music"></i>&nbsp;MUSICOTHÉRAPIE</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-envelope"></i>&nbsp;CONTACT</a>
+        </div>
+    </div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="accueil">
+    <div class="w3-display-middle" style="white-space: nowrap; text-align: center;">
+
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-hide-medium w3-hide-small w3-animate-opacity" style="border-radius: 5px; display: inline-block;">&nbsp;ERIKA GUITTARD
+            <img src="logo.png" alt="Logo d'Erika" class="w3-image w3-opacity-min w3-hover-opacity-off fa-flip-logo" style="--fa-animation-duration: 5s; --fa-animation-timing: linear; vertical-align: middle;" width="20" height="20">
+            <span class="w3-condensed">&nbsp;Musicothérapeute certifiée&nbsp;&nbsp;</span>
+        </span>
+
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-condensed w3-hide-large w3-hide-small w3-animate-opacity" style="border-radius: 5px; display: inline-block;">ERIKA GUITTARD&nbsp;
+            <img src="logo.png" alt="Logo d'Erika" class="w3-image w3-opacity-min w3-hover-opacity-off fa-flip-logo" style="--fa-animation-duration: 5s; --fa-animation-timing: linear; vertical-align: middle;" width="20" height="20">
+            <span class="w3-condensed w3-xlarge">&nbsp;Musicothérapeute certifiée&nbsp;&nbsp;</span>
+        </span>
+
+        <span class="w3-center w3-padding-large w3-black w3-medium w3-xcondensed w3-hide-large w3-hide-medium w3-hide-xsmall w3-animate-opacity" style="border-radius: 5px; display: inline-block;">ERIKA GUITTARD&nbsp;
+            <img src="logo.png" alt="Logo d'Erika" class="w3-image w3-opacity-min w3-hover-opacity-off fa-flip-logo" style="--fa-animation-duration: 5s; --fa-animation-timing: linear; vertical-align: middle;" width="20" height="20">
+            <span class="w3-xcondensed w3-medium">&nbsp;Musicothérapeute certifiée&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </span>
+
+        <span class="w3-center w3-padding-large w3-black w3-small w3-xcondensed w3-hide-large w3-hide-medium w3-hide-small w3-show-xsmall w3-animate-opacity" style="border-radius: 5px; display: inline-block;">ERIKA GUITTARD&nbsp;
+            <img src="logo.png" alt="Logo d'Erika" class="w3-image w3-opacity-min w3-hover-opacity-off fa-flip-logo" style="--fa-animation-duration: 5s; --fa-animation-timing: linear; vertical-align: middle;" width="20" height="20">
+            <span class="w3-xcondensed w3-small">&nbsp;Musicothérapeute certifiée&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </span>
+
+
+
+
+
+    </div>
+</div>
+
+    <!-- ABOUT - QUI JE SUIS -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+
+        <h3 class="w3-center">QUI SUIS-JE ?</h3>
+
+        <!-- BIOGRAPHIE -->
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large scroll-reveal animate left">
+
+                <p><b><img src="logo.png" class="w3-round w3-image" alt="Lien vers le Phsychology Today d'Erika" width="30" height="100">&nbsp; Erika Guittard, MTA</b></p><br>
+                <img src="photos/DSC_0876-2.jpg" class="w3-round w3-image" alt="Photo 1" width="380">
+            </div>
+
+
+            <!-- Container BIO TEXTE-->
+            <div class="w3-col m6 w3-padding-large scroll-reveal animate right">
+                <p>
+                    Initialement psychologue sociale, je suis venue m’installer à Montréal en 2016 dans le but de me spécialiser en musicothérapie. Je demeure persuadée qu’engager le corps, en plus de l’esprit, dans la thérapie est la clé de la résilience. Là où les mots rencontrent leur limite, la musique entre en scène.
+                </p>
+                <p>
+                    Depuis 2017, je travaille en séances individuelles auprès d’enfants sur le spectre de l’autisme et/ou présentant des déficiences intellectuelles. C'est en revanche majoritairement en santé mentale que j’exerce aujourd'hui. J’anime des séances de groupe et individuelles en centre communautaire depuis 2018.
+                </p>
+                    Si vous vous sentez anxieux.se, déprimé.e, vulnérable, si vous souhaitez faire du sens de ce qui vous arrive ou vous habite, ou si vous ressentez simplement le besoin de venir vous déposer dans un environnement sécuritaire et de non-jugement, n'hésitez surtout pas à me <a href="#contact"> contacter,</a> et il me fera plaisir de vous guider dans cette démarche.
+                <p class="w3-center w3-cell-row icon-container">
+                    <a href="https://www.psychologytoday.com/ca/therapists/erika-guittard-montreal-qc/1189178" style="text-decoration:none" class="w3-cell w3-panel">
+                        <img src="images/psytoday_logo.png" class="w3-round w3-image w3-opacity-min w3-hover-opacity-off" alt="Lien vers le Psychology Today d'Erika" width="80" height="100">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/erika-guittard-8a046061" style="text-decoration:none" class="w3-cell fa-brands fa-linkedin fa-2xl w3-hover-opacity" title="Lien vers le Linkedin d'Erika"></a>
+
+                    <a href="https://www.musictherapy.ca" style="text-decoration:none;" class="w3-cell w3-panel">
+                        <img src="images/camt_logo_en_black.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Lien vers le site de l'Association Canadienne des musicothérapeutes" width="100" height="100">
+                    </a>
+
+                    <a href="https://www.musicotherapieaqm.org" style="text-decoration:none" class="w3-cell w3-panel">
+                        <img src="images/AQM_logo.png" class="w3-round w3-image w3-opacity-min w3-hover-opacity-off" alt="Lien vers le site de l'Association des musicothérapeutes du Québec" width="80" height="50">
+                    </a>
+                </p>
+            </div>
+            <div class="w3-row">
+                <hr>
+                <div class="square-wrapper">
+                    <div class="square square-transition">
+                        <p class="w3-center w3-panel"><strong>En musicothérapie, il n’y a pas de “fausse note” ; aucune connaissance en musique n’est nécessaire pour consulter.</strong></p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="musictherapy">
+        <div class="w3-display-middle">
+            <span class="w3-xxxlarge w3-text-white w3-wide w3-hide-small w3-hide-medium" style="text-shadow: 1px 1px gray;">MUSICOTHÉRAPIE</span>
+            <span class="w3-xxlarge w3-text-white w3-wide w3-hide-large w3-hide-small" style="text-shadow: 1px 1px gray;">MUSICOTHÉRAPIE</span>
+            <span class="w3-xlarge w3-text-white w3-hide-large w3-hide-medium" style="text-shadow: 1px 1px gray;">MUSICOTHÉRAPIE</span>
+        </div>
+    </div>
+
+    <!-- MUSICOTHÉRAPIE ABOUT -->
+    <div class="w3-content w3-container w3-padding-64">
+<div class="scroll-reveal animate toptop w3-container w3-content w3-padding-8">
+        <h3 class="w3-center" style="margin:8px; margin-bottom: 32px">QU'EST-CE QUE C'EST ?</h3>
+        <p>
+            “La musicothérapie est une discipline dans laquelle des musicothérapeutes certifiés (MTA) utilisent la musique à l’intérieur du lien thérapeutique afin de soutenir le développement, la santé et le bien-être. Les musicothérapeutes se servent de la musique de façon sécuritaire et éthique pour répondre aux besoins humains sur le plan de la communication et aussi sur les plans cognitif, musical, physique, social et spirituel.”
+            <i class="w3-right"><small>- Association canadienne des musicothérapeutes (ACM)</small></i>
+        </p>
+        <br>
+        <div class="w3-row">
+            <p class="w3-justify">La musicothérapie est une pratique thérapeutique douce et bienveillante dans laquelle la musique sert “d’excuse” pour venir travailler sur les défis ou difficultés qu'une personne rencontre dans sa vie. De nombreuses facettes du médium musical sont utilisées afin de permettre à la personne de s’explorer, s’exprimer, ou même de se relaxer ou se dépasser, dépendamment de ses besoins.</p>
+        </div>
+        </div>
+        </div>
+        <hr>
+
+
+
+
+        <!-- Container DÉROULEMENT -->
+        <div class="w3-content w3-container w3-padding-64">
+            <h3 class="w3-center">DÉROULEMENT</h3>
+            <div class=" scroll-reveal animate skewleft">
+                <div class="w3-row w3-row-padding" style="padding: 0; margin: 8px; text-align:center">
+                    <div class="columnA">
+                        <p>- 1 -</p>
+                    </div>
+                    <div class="columnA">
+                        <p>- 2 -</p>
+                    </div>
+                    <div class="columnA">
+                        <p>- 3 -</p>
+                    </div>
+                    <div class="columnA">
+                        <p>- 4 -</p>
+                    </div>
+                    <div class="columnA">
+                        <p>- 5 -</p>
+                    </div>
+                </div>
+
+                <div class="w3-container" style="padding: 0; margin-top: 0px; margin-bottom: 140px">
+
+                    <div class="w3-row-padding container">
+                        <div class="line">
+                            <div class="active-line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-content w3-container scroll-reveal animate fadeslow">
+                <p class="w3-justify">Les premières rencontres servent généralement à apprendre à se connaître, à tisser un lien thérapeutique, et à identifier les objectifs sur lesquels portera le travail musicothérapeutique. Puis, la thérapeute et le client, ensemble, vont décider d’un ou plusieurs objectifs à viser, et sur cette base-là, la thérapeute proposera des interventions musicales pour venir soutenir ce travail. L’avancement, les progrès du travail thérapeutique réalisé seront réévalués lorsque nécessaire, et lorsque les objectifs seront atteints ou qu’une amélioration suffisante sera observée, la thérapie pourra être résumée et un sommaire sera rédigé par la thérapeute. </p>
+            </div>
+        </div>
+        <hr>
+
+
+
+
+        <!-- Container INTERVENTIONS -->
+        <div class="w3-container" style="padding:64px 10%">
+            <h3 class="w3-center">EXEMPLES D'INTERVENTIONS</h3>
+            <div class="w3-row-padding w3-center" style="margin-top: 32px">
+
+                <div class="w3-third scroll-reveal animate left">
+                    <i class="fa-solid fa-headphones-simple w3-margin-bottom w3-jumbo w3-center fa-beat-hover" style="--fa-beat-scale: 1.5; --fa-animation-duration: 1s;"></i>
+                    <p class="w3-large">Écoute</p>
+                    <p>Écoutes de pièces musicales, <br>Analyse de paroles</p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+                <div class="w3-third scroll-reveal animate top">
+                    <i class="fa fa-drum w3-margin-bottom w3-jumbo fa-bounce-hover" style="--fa-animation-duration: 1s;"></i>
+                    <p class="w3-large">Improvisation</p>
+                    <p>Improvisations vocales ou instrumentales <br> adaptatées aux besoins du moment</p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+                <div class="w3-third scroll-reveal animate right">
+                    <i class="fa fa-guitar w3-margin-bottom w3-jumbo fa-flip-hover" style="--fa-flip-x: -0.5; --fa-flip-y: 0.5;"></i>
+                    <p class="w3-large">Composition</p>
+                    <p>Compositions instrumentales, <br> et de chansons</p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding w3-center custom-margin-top">
+
+
+                <div class="w3-third scroll-reveal animate left">
+                    <i class="fa fa-microphone-lines w3-margin-bottom w3-jumbo w3-center fa-flip-hover" style="--fa-animation-duration: 1s;"></i>
+                    <p class="w3-large">Chant</p>
+                    <p>Chant de répertoire<br>et exercices vocaux structurés</p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+                <div class="w3-third scroll-reveal animate bottom">
+                    <i class="fa fa-head-side-virus w3-margin-bottom w3-jumbo fa-fade-hover" style="--fa-animation-duration: 1.5s;"></i>
+                    <p class="w3-large"> Visualisation</p>
+                    <p>Visualisation en musique<br>guidés et libres</p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+                <div class="w3-third scroll-reveal animate right">
+                    <i class="fa fa-pencil w3-margin-bottom w3-jumbo fa-shake-hover" style="--fa-animation-duration: 1s;"></i>
+                    <p class="w3-large">Écriture</p>
+                    <p>Exercices d’écriture de textes libres<br>paroles et poésie </p>
+                    <div class="w3-hide-large w3-hide-medium">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-hide-small">
+            <hr>
+        </div>
+
+
+
+
+        <!-- Container INSTRUMENTS -->
+        <div class="w3-container custom-container">
+
+            <div class="w3-container w3-padding-16">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0465.jpg" style="width:100%" alt="Instrument 1">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0495.jpg" style="width:100%" alt="Instrument 2">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0640.jpg" style="width:100%" alt="Instrument 3">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0594.jpg" style="width:100%" alt="Instrument 4">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0584.jpg" style="width:100%" alt="Instrument 5">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0568.jpg" style="width:100%" alt="Instrument 6">
+                </div>
+
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0612.jpg" style="width:100%" alt="Instrument 7">
+                </div>
+
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0571.jpg" style="width:100%" alt="Instrument 8">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <!--		LIEN ICI VERS AUTRE PAGE HTML
+                            <a href="index.html"></a>		-->
+                    <img src="photos/DSC_0592.jpg" style="width:100%" alt="Instrument 9">
+                </div>
+
+
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+
+
+                <!-- Container CAPTION TEXT Entre les deux ci-nécéssaire
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+                -->
+
+
+
+    <div class="demo-cursor-container">
+      <!-- Add all 9 images within this container -->
+      <img class="demo cursor" src="photos/DSC_0465.jpg" style="width:16.66%" onclick="currentSlide(1)" alt="Instrument 1">
+      <img class="demo cursor" src="photos/DSC_0495.jpg" style="width:16.66%" onclick="currentSlide(2)" alt="Instrument 2">
+      <img class="demo cursor" src="photos/DSC_0640.jpg" style="width:16.66%" onclick="currentSlide(3)" alt="Instrument 3">
+      <img class="demo cursor" src="photos/DSC_0594.jpg" style="width:16.66%" onclick="currentSlide(4)" alt="Instrument 4">
+      <img class="demo cursor" src="photos/DSC_0584.jpg" style="width:16.66%" onclick="currentSlide(5)" alt="Instrument 5">
+      <img class="demo cursor" src="photos/DSC_0568.jpg" style="width:16.66%" onclick="currentSlide(6)" alt="Instrument 6">
+      <img class="demo cursor" src="photos/DSC_0612.jpg" style="width:16.66%" onclick="currentSlide(7)" alt="Instrument 7">
+      <img class="demo cursor" src="photos/DSC_0571.jpg" style="width:16.66%" onclick="currentSlide(8)" alt="Instrument 8">
+      <img class="demo cursor" src="photos/DSC_0592.jpg" style="width:16.66%" onclick="currentSlide(9)" alt="Instrument 9">
+    </div>
+                <hr>
+
+<br>
+        </div>
+        </div>
+
+
+
+
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
+        <div class="w3-display-middle">
+            <span class="w3-xxxlarge w3-text-white w3-wide w3-hide-small w3-hide-medium" style="text-shadow: 1px 1px gray;">CONTACT</span>
+            <span class="w3-xxlarge w3-text-white w3-wide w3-hide-large w3-hide-small" style="text-shadow: 1px 1px gray;">CONTACT</span>
+            <span class="w3-xlarge w3-text-white w3-hide-large w3-hide-medium" style="text-shadow: 1px 1px gray;">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center">POUR PRENDRE CONTACT :</h3>
+        <p class="w3-center w3-medium w3-hide-small">Séances disponibles les lundis uniquement. Tarifs : 100$ / 60min </p>
+        <p class="w3-center w3-small w3-hide-medium w3-hide-large">Séances disponibles les lundis uniquement. Tarifs : 100$ / 60min </p>
+
+
+        <div class="w3-row w3-padding-32 w3-section w3-center">
+
+<a id="logo-link" style="text-decoration:none" href="#contact" class="fa fa-mobile-screen fa-fw w3-hover-text-black w3-xxlarge w3-margin-right" title="Erika's Phone Number"></a>
+
+<a id="phone-link" style="text-decoration:none; transform: translateY(-8px); width: 215px; border-radius: 5px;" href="#contact" class="w3-hover-text-black w3-button contact-info">(514)-&#9633;&#9633;&#9633;-&#9633;&#9633;&#9633;&#9633;</a><br>
+
+
+
+
+
+            <a style="text-decoration:none" href="mailto:musicotherika@gmail.com" class="fa-regular fa-envelope fa-fw w3-hover-text-black w3-xxlarge w3-margin-right" title="musicotherika@gmail.com"></a>
+
+            <a style="text-decoration:none; transform: translateY(-8px); width: 215px; border-radius: 5px;" href="mailto:musicotherika@gmail.com" class="w3-hover-text-black w3-button contact-info">musicotherika@gmail.com</a><br>
+
+            <a style="text-decoration:none" href="https://www.google.com/maps/place/911+Rue+Jean-Talon+E,+Montr%C3%A9al,+QC+H2R+1V5/@45.5417451,-73.6158938,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc9193e2a6aafb1:0xa35da259eae7c429!8m2!3d45.5417451!4d-73.6133189!16s%2Fg%2F11b8v4gqrc?entry=tts&shorturl=1" class="fa fa-location-dot fa-fw w3-hover-text-black w3-xxlarge w3-margin-right" title="Montreal Map"></a>
+
+
+            <a style="text-decoration:none; transform: translateY(-8px); width: 215px; border-radius: 5px;" href="https://www.google.com/maps/place/911+Rue+Jean-Talon+E,+Montr%C3%A9al,+QC+H2R+1V5/@45.5417451,-73.6158938,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc9193e2a6aafb1:0xa35da259eae7c429!8m2!3d45.5417451!4d-73.6133189!16s%2Fg%2F11b8v4gqrc?entry=tts&shorturl=1" class="w3-hover-text-black w3-button contact-info">911, Jean-Talon Est, Montréal</a>
+            <br><br>
+
+            <div class="w3-content w3-center w3-grayscale-min">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d717.4211732242283!2d-73.61347376755522!3d45.541490952466766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91915796f7577%3A0xb45591d8dd8656fb!2sMaison%20de%20la%20culture%20Claude-L%C3%A9veill%C3%A9e!5e0!3m2!1sfr!2sca" width="70%" height="200" style="border: 0; border-radius: 5px;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" title="Google Maps de la Maison de la culture Claude Léveillé"></iframe>
+            </div>
+        </div>
+
+        <p class="w3-medium w3-center scroll-reveal intro-text w3-hide-small">Venez composer l'harmonie qui vous chante !</p>
+        <p class="w3-small w3-center scroll-reveal intro-text w3-hide-medium w3-hide-large">Venez composer l'harmonie qui vous chante !</p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity">
+        <a href="#accueil" class="w3-button w3-light-grey" style="border-radius: 5px;"><i class="fa fa-up-long w3-margin-right"></i>Retour en haut</a>
+        <p>
+
+            <div class="w3-content w3-cell-row" style="max-width:600px;">
+                <div class="w3-cell">
+
+                    <div class="a" style="font-size:11px">
+                        <img src="logo.png" alt="Logo d'Erika" class="w3-image w3-opacity-min w3-hover-opacity-off fa-flip-logo" style="--fa-animation-duration: 5s; --fa-animation-timing: linear;" width="20"> &nbsp; Erika Guittard, MTA  &nbsp; &nbsp; © &nbsp; 2023 &nbsp; Tous droits réservés
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="w3-xlarge w3-section w3-center w3-black">
+                <a style="text-decoration:none" href="mailto:musicotherika@gmail.com" class="fa-custom fa fa-envelope fa-fw w3-hover-opacity" title="E-mail musicotherika@gmail.com"></a>
+                <a href="https://www.linkedin.com/in/erika-guittard-8a046061" class="fa-custom fa-brands fa-linkedin w3-hover-opacity" title="Erika Linkedin"></a>
+            </div>
+
+
+            <div class="w3-content w3-cell-row" style="max-width:600px;">
+
+
+                <div class="w3-cell w3-cell-logo">
+                    <a href="https://www.musictherapy.ca" style="text-decoration:none;">
+                        <img src="images/camt_logo_en.png" class="w3-panel w3-round w3-opacity-min w3-hover-opacity-off" alt="Lien vers le site de l'Association Canadienne des musicothérapeutes" width="150">
+                    </a>
+                </div>
+
+
+                <div class="w3-cell w3-cell-logo">
+                    <a href="https://www.psychologytoday.com/ca/therapists/erika-guittard-montreal-qc/1189178" style="text-decoration:none;">
+                        <img src="images/psytoday_verified.png" class="w3-panel w3-round w3-opacity-min w3-hover-opacity-off" alt="Lien vers le Phsychology Today d'Erika" width="150">
+                    </a>
+                </div>
+
+
+
+                <div class="w3-cell w3-cell-logo">
+                    <a href="https://www.musicotherapieaqm.org" style="text-decoration:none;">
+                        <img src="images/AQM_logo.png" class="w3-panel w3-round w3-opacity-min w3-hover-opacity-off" alt="Lien vers le site de l'Association Québécoise des musicothérapeutes" width="150">
+                    </a>
+                </div>
+
+            </div>
+
+
+
+    </footer>
+
+
+<script>
+"use strict";
+
+        const steps = [
+            {
+                title: "Évaluation <br> des <br>besoins"
+            },
+            {
+                title: "Définition <br> des <br>objectifs"
+            },
+            {
+                title: "Traitement : <br> interventions <br> musicales"
+            },
+            {
+                title: "Évaluation <br> des <br>progrès"
+            },
+            {
+                title: "Bilan <br>et <br> terminaison"
+            }
+        ];
+
+        let animationPaused = false;
+        let currentIndex = 0;
+        let animationInterval;
+
+        const createStepElement = (step) => {
+            const stepParent = document.createElement("div");
+            stepParent.classList.add("step-parent");
+            const stepCircle = document.createElement("div");
+            stepCircle.classList.add("step");
+            const prct = `${(steps.indexOf(step) + 1 / 2) * (100 / steps.length)}%`;
+            stepParent.style.left = prct;
+            const stepTitle = document.createElement("div");
+            stepTitle.innerHTML = step.title;
+
+            // Set the font family here
+            stepTitle.style.fontFamily = "Lato, sans-serif";
+
+            // Reset text-transform to normal (no transformation) Otherwise it's all in CAP LOCK
+            stepTitle.style.textTransform = "none";
+
+            stepTitle.classList.add("step-title");
+            stepParent.appendChild(stepTitle);
+            stepParent.appendChild(stepCircle);
+            return stepParent;
+        };
+
+        const activateStep = (stepParent) => {
+            const clickedStep = stepParent.querySelector(".step");
+            document.querySelectorAll(".step").forEach((step) => {
+                step.classList.remove("active", "current");
+            });
+            clickedStep.classList.add("active", "current");
+            document.querySelectorAll(".step").forEach((step) => {
+                if (parseInt(step.parentNode.style.left) <= parseInt(stepParent.style.left)) {
+                    step.classList.add("active");
+                    step.parentNode.querySelector(".step-title").classList.add("passed");
+                }
+                else {
+                    step.classList.remove("active");
+                    step.parentNode.querySelector(".step-title").classList.remove("passed");
+                }
+            });
+            document.body.style.setProperty("--progress", stepParent.style.left);
+        };
+
+        const addStepEventListeners = (stepParent) => {
+            stepParent.addEventListener("click", ({ currentTarget }) => {
+                activateStep(currentTarget);
+                pauseAnimation();
+            });
+        };
+
+        const pauseAnimation = () => {
+            animationPaused = true;
+            clearInterval(animationInterval);
+        };
+
+        const continueAnimation = () => {
+            animationPaused = false;
+            animationInterval = setInterval(() => {
+                if (!animationPaused && currentIndex < steps.length) {
+                    activateStep(document.querySelectorAll(".step-parent")[currentIndex]);
+                    currentIndex++;
+                } else {
+                    currentIndex = 0;
+                    resetToNoSteps(); // Reset when a cycle is over
+                }
+            }, 2000); // 2 seconds between transitions
+        };
+
+        const transitionSteps = () => {
+            currentIndex = 0;
+            continueAnimation();
+        };
+
+        const resetToNoSteps = () => {
+            const stepElements = document.querySelectorAll(".step-parent");
+            stepElements.forEach((stepElement) => {
+                stepElement.querySelector(".step").classList.remove("active", "current");
+                stepElement.querySelector(".step-title").classList.remove("passed");
+            });
+            document.body.style.setProperty("--progress", "0%");
+        };
+
+        const printSteps = () => {
+            const container = document.querySelector(".line");
+            steps.forEach((step) => {
+                const stepElement = createStepElement(step);
+                addStepEventListeners(stepElement);
+                container.appendChild(stepElement);
+            });
+
+            setTimeout(() => {
+                transitionSteps();
+            }, 2500);
+        };
+
+        document.addEventListener("DOMContentLoaded", printSteps);
+</script>
+
+
+
+<script>
+// JavaScript to detect older browsers
+const userAgent = navigator.userAgent.toLowerCase();
+
+// Check for Safari (before version 12)
+const isSafari = userAgent.includes('safari/') && !userAgent.includes('chrome/') && parseInt(userAgent.split('version/')[1], 10) < 12;
+
+// Check for Chrome (before version 51)
+const isChrome = userAgent.includes('chrome/') && parseInt(userAgent.split('chrome/')[1], 10) < 51;
+
+// Check for Firefox (before version 55)
+const isFirefox = userAgent.includes('firefox/') && parseInt(userAgent.split('firefox/')[1], 10) < 55;
+
+// Check for Opera (before version 38)
+const isOpera = userAgent.includes('opr/') && parseInt(userAgent.split('opr/')[1], 10) < 38;
+
+// Check for Internet Explorer (before version 11)
+const isIE = userAgent.includes('msie') || userAgent.includes('trident/') && parseInt(userAgent.split('rv:')[1], 10) < 11;
+
+// Disable animations for the specified browsers and add the 'active' class
+if (isSafari || isChrome || isFirefox || isOpera || isIE) {
+    const elementsToDisableAnimation = document.querySelectorAll('.intro-text, .animate, .loader');
+
+    elementsToDisableAnimation.forEach((element) => {
+        element.style.animation = 'none';
+        element.style.WebkitAnimation = 'none';
+        element.classList.add('active'); // Add the 'active' class
+    });
+} else {
+    // Intersection Observer is supported, proceed with animations
+
+    // SQUARE ANIMATION Numero 1 - Remove the transition class
+    const square = document.querySelector('.square');
+    square.classList.remove('square-transition');
+
+    // Create the observer, same as before:
+    const observerOptions = 'IntersectionObserver' in window ? { passive: true } : {};
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                square.classList.add('square-transition');
+                return;
+            }
+
+            square.classList.remove('square-transition');
+        });
+    }, observerOptions);
+
+    observer.observe(document.querySelector('.square-wrapper'));
+
+    // BOX ANIMATIONssss Numero 2
+    function scrollTrigger(selector, options = {}) {
+        let els = document.querySelectorAll(selector);
+        els = Array.from(els)
+        els.forEach(el => {
+            addObserver(el, options)
+        })
+    }
+
+    function addObserver(el, options) {
+        if (!('IntersectionObserver' in window)) {
+            if (options.cb) {
+                options.cb(el)
+            } else {
+                entry.target.classList.add('active')
+            }
+            return
+        }
+        let observer = new IntersectionObserver((entries, observer) => { //this takes a callback function which receives two arguments: the elements list and the observer instance
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (options.cb) {
+                        options.cb(el)
+                    } else {
+                        entry.target.classList.add('active')
+                    }
+                    observer.unobserve(entry.target)
+                }
+            })
+        }, options)
+        observer.observe(el)
+    }
+    // Example usages:
+    scrollTrigger('.intro-text')
+
+    scrollTrigger('.scroll-reveal', {
+        rootMargin: '-10%',
+    })
+
+    scrollTrigger('.loader', {
+        rootMargin: '-10%',
+        cb: function (el) {
+            el.innerText = 'Loading...'
+            setTimeout(() => {
+                el.innerText = 'Task Complete!'
+            }, 1000)
+        }
+    })
+
+    // Change style of navbar on scroll
+    window.onscroll = function () { myFunction() };
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+}
+
+
+
+</script>
+
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Your JavaScript code to generate the phone number
+    function generatePhoneNumber() {
+      var realPhoneNumber = '(514)-431-8054'; // Your actual phone number
+      var phoneNumberLink = document.getElementById('phone-link');
+      var logoLink = document.getElementById('logo-link');
+      var phoneLinkVisible = false;
+
+      // Function to reveal the phone number
+      function revealPhoneNumber() {
+        if (!phoneLinkVisible) {
+          phoneLinkVisible = true;
+
+          // Replace the placeholder text with the real phone number on phone-link
+          phoneNumberLink.textContent = realPhoneNumber;
+          phoneNumberLink.title = realPhoneNumber;
+          phoneNumberLink.setAttribute('href', 'tel:' + realPhoneNumber);
+
+          // Set the correct phone number in href for logo-link (not visible)
+          logoLink.setAttribute('href', 'tel:' + realPhoneNumber);
+        }
+      }
+
+      // Create an Intersection Observer to track when the element is in view
+      var observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            // When the element is in view, reveal the phone number
+            setTimeout(revealPhoneNumber, 3000);
+
+            // Stop observing once the element is in view
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      // Attach the Intersection Observer to the phone link
+      observer.observe(phoneNumberLink);
+    }
+
+    // Call the function to generate and replace the phone number
+    generatePhoneNumber();
+  });
+</script>
+
+
+
+
+
+    <script>// slide show_______________________
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            //THIS IS FOR THE CAPTION TEXT var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            //THIS IS FOR THE CAPTION TEXT captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+</script>
+
+
+    <script>
+
+
+
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }</script>
+
+
+
+
+
+</body>
+</html>
