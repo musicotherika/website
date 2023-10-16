@@ -10,6 +10,10 @@
     </url>
     <url>
         <loc>https://www.erikaguittard.com/index.html</loc>
-        <!-- Add more details for the French version here -->
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.erikaguittard.com/indexEN.html"
+        />
     </url>
 </urlset>
