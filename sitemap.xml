@@ -1,0 +1,30 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.erikaguittard.com/indexEN.html</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="fr"
+            href="https://www.erikaguittard.com/index.html"
+        />
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.erikaguittard.com/indexEN.html"
+        />
+    </url>
+    <url>
+        <loc>https://www.erikaguittard.com/index.html</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://www.erikaguittard.com/indexEN.html"
+        />
+        <xhtml:link
+            rel="alternate"
+            hreflang="fr"
+            href="https://www.erikaguittard.com/index.html"
+        />
+    </url>
+    <!-- Add more URLs for other pages and their language versions -->
+</urlset>
