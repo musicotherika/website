@@ -10,7 +10,7 @@
         <xhtml:link
             rel="alternate"
             hreflang="fr"
-            href="https://www.erikaguittard.com/index.html"
+            href="https://www.erikaguittard.com/"
         />
     </url>
     <url>
@@ -24,19 +24,6 @@
             rel="alternate"
             hreflang="en"
             href="https://www.erikaguittard.com/indexEN.html"
-        />
-    </url>
-    <url>
-        <loc>https://www.erikaguittard.com/index.html</loc>
-        <xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://www.erikaguittard.com/indexEN.html"
-        />
-        <xhtml:link
-            rel="alternate"
-            hreflang="fr"
-            href="https://www.erikaguittard.com/index.html"
         />
     </url>
     <!-- Add more URLs for other pages and their language versions -->
