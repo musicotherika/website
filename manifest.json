@@ -2,7 +2,7 @@
   "name": "Erika Guittard - Musicothérapeute Certifiée, Certified Music Therapist, MTA",
   "short_name": "Erika Guittard's page",
   "description": "Bienvenue sur la page d'Erika Guittard, Musicothérapeute certifiée à Montréal. Découvrez ce que la musicothérapie peut vous offrir car là où les mots rencontrent leur limite, la musique entre en scène! Welcome to Erika Guittard's page, Certified Music Therapist in Montreal. Discover what music therapy can do for you, where words reach their limit, music enters the scene!",
-  "start_url": "/manifest.json",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#777",
