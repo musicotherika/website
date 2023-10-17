@@ -1702,8 +1702,7 @@ if (isSafari || isChrome || isFirefox || isOpera || isIE) {
 
 
 <script>// slide show_______________________
-var demoCursorImages; // Define the variable at a higher scope
-  
+var demoCursorImages;
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -1720,8 +1719,12 @@ function showSlides(n, buttonDirection) {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("demo");
     var demoCursorContainer = document.querySelector(".demo-cursor-container");
-    var demoCursorImages = demoCursorContainer.querySelectorAll(".demo.cursor");
+    demoCursorImages = demoCursorContainer.querySelectorAll(".demo.cursor"); // Assign the variable
 
+    if (!demoCursorImages) {
+        // Handle the case where demoCursorImages is not defined
+        return;
+    }
     if (n > slides.length) { slideIndex = 1; }
     if (n < 1) { slideIndex = slides.length; }
 
