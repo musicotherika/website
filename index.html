@@ -207,6 +207,17 @@ img {
   opacity: 1;
 }
 
+/* Add a new class for highlighting the active image */
+.demo.cursor.highlight {
+  opacity: 1; /* Set opacity to 1 for the active image */
+  transition: opacity 0.3s; /* Add a transition effect for smooth hover */
+}
+
+/* Add a hover effect for the active image */
+.demo.cursor.highlight:hover {
+  opacity: 1; /* Adjust the opacity as desired */
+}
+
 
 
 
@@ -1691,36 +1702,73 @@ if (isSafari || isChrome || isFirefox || isOpera || isIE) {
 
 
 
-    <script>// slide show_______________________
+<script>// slide show_______________________
+var slideIndex = 1;
+showSlides(slideIndex);
 
-        var slideIndex = 1;
-        showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n, n);
+}
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+function currentSlide(n) {
+    showSlides(slideIndex = n, 0);
+}
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+function showSlides(n, buttonDirection) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var demoCursorContainer = document.querySelector(".demo-cursor-container");
+    var demoCursorImages = demoCursorContainer.querySelectorAll(".demo.cursor");
 
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            //THIS IS FOR THE CAPTION TEXT var captionText = document.getElementById("caption");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            //THIS IS FOR THE CAPTION TEXT captionText.innerHTML = dots[slideIndex-1].alt;
-        }
+    if (n > slides.length) { slideIndex = 1; }
+    if (n < 1) { slideIndex = slides.length; }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+
+    // Set the "highlight" class for the active image
+    demoCursorImages.forEach(function (image) {
+        image.classList.remove("highlight");
+    });
+    demoCursorImages[slideIndex - 1].classList.add("highlight");
+
+    // Check if we need to scroll the demo cursor
+if (slideIndex === 6 && buttonDirection === 1) {
+    // Scroll to the next "page" when moving from 5th to 6th
+    demoCursorContainer.scrollLeft += demoCursorContainer.clientWidth;
+} else if (slideIndex === 1 && buttonDirection === 1) {
+    // Scroll to the first "page" when moving from 10th to 1st
+    demoCursorContainer.scrollLeft = 0;
+} else if (slideIndex === 10 && buttonDirection === -1) {
+    // Scroll to the last "page" when moving from 1st to 10th
+    var pageCount = Math.ceil(demoCursorImages.length / 6); // 6 images per "page"
+    demoCursorContainer.scrollLeft = (pageCount - 1) * demoCursorContainer.clientWidth;
+} else if (slideIndex === 5 && buttonDirection === -1) {
+    // Scroll to the first "page" when moving from 6th to 5th
+    demoCursorContainer.scrollLeft = 0;
+}
+
+}
+
+// Add click event listeners to each demo cursor image
+demoCursorImages.forEach(function (image, index) {
+    image.addEventListener("click", function () {
+        currentSlide(index + 1);
+        demoCursorImages.forEach(function (otherImage) {
+            otherImage.classList.remove("highlight");
+        });
+        image.classList.add("highlight");
+    });
+});
 </script>
 
 
