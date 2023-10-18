@@ -4,26 +4,26 @@
         <loc>https://www.erikaguittard.com/</loc>
         <xhtml:link
             rel="alternate"
-            hreflang="en"
-            href="https://www.erikaguittard.com/indexEN.html"
+            hreflang="fr"
+            href="https://www.erikaguittard.com/"
         />
         <xhtml:link
             rel="alternate"
-            hreflang="fr"
-            href="https://www.erikaguittard.com/"
+            hreflang="en"
+            href="https://www.erikaguittard.com/indexEN.html"
         />
     </url>
     <url>
         <loc>https://www.erikaguittard.com/indexEN.html</loc>
         <xhtml:link
             rel="alternate"
-            hreflang="fr"
-            href="https://www.erikaguittard.com/"
+            hreflang="en"
+            href="https://www.erikaguittard.com/indexEN.html"
         />
         <xhtml:link
             rel="alternate"
-            hreflang="en"
-            href="https://www.erikaguittard.com/indexEN.html"
+            hreflang="fr"
+            href="https://www.erikaguittard.com/"
         />
     </url>
     <!-- Add more URLs for other pages and their language versions -->
